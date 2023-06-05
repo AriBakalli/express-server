@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 // Create the express app.
 const app = express();
 
-/* app should use bodyParser. For this example we'll use json. bodyParser allows you to
+/* appp should use bodyParser. For this example we'll use json. bodyParser allows you to
 access the body of your request.
 */
 app.use(bodyParser.json({extended: true}));
